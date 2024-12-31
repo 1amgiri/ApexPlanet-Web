@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="top">Apex Planet Internship Task-4</div>
+    <div class="banner">
+        <h1 class="title">Cart</h1>
+        <div class="menu">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button> 
+            <div class="menu-links">
+                <a href="index.html">Home</a>
+                <a href="grocery.html">Grocery</a>
+                <a href="cart.html">Cart</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <h2>Your Cart</h2>
+    <div id="cart-container"></div>
+    <script src="cart.js"></script>
+    <script>
+        function toggleMenu() {
+            const menuLinks = document.querySelector(".menu-links");
+            menuLinks.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

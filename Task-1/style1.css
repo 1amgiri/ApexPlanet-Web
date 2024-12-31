@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #34495e, #5d6d7e);
+}
+h1{
+    color:#ebedef;
+    font-weight:bolder;
+}
+p{
+    color:#e6e6e6;
+}
+.h6 {
+    height: 1.5rem;
+    background-color: #17202a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e6e6e6;
+    text-align: center;  
+    position: sticky;    
+    top: 0;              
+    z-index: 1000;       
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    background: linear-gradient(to right, #34495e, #5d6d7e);
+}
+
+#name {
+    color: #ebedef;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right:650px;
+    font-size: 1.8em;
+}
+
+#nav img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #34495e;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    margin-left: 12px;
+    font-weight: bolder;
+    display: block;
+    color: #ebedef;
+    text-align: center;
+    padding: 20px 18px;
+    text-decoration: none;
+    font-size: larger;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.social-icon.linkedin {
+    background-color: #0077b5;
+}
+
+.social-icon.github {
+    background-color: #333;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.social-icon i {
+    margin: 0;
+}
+.profile-description{
+    padding-left: 32%;
+}
+
+.hero-section {
+    background: linear-gradient(to right, #34495e, #5d6d7e);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.hero-section img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #34495e;
+    outline-color: #1b2631;
+    outline-width: 2%;
+}
+
+.hero-section button {
+    background: #1b2631;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.hero-section button:hover {
+    background: #2e4053;
+}
+
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    height: calc(100vh - 120px);
+}
+
+.skills-category {
+    margin-bottom: 30px;
+    text-align: center;
+    width: 80%;
+}
+
+.skills-category h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.progress {
+    float: right;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.skills-category ul li {
+    background: #e6e6e6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.skills-category ul li .progress {
+    background: #212f3c;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
+.about{
+    padding-left: 100px;
+}
+.contact{
+    padding-left:100px;
+    color:#5e6a75;
+}
+.contact-details{
+    padding-left: 100px;
+}

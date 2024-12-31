@@ -1,0 +1,134 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#d4e6f1 ;
+}
+h3{
+    font-family: 'Cursive', 'Brush Script MT', 'Segoe Script', sans-serif;
+    font-size:36px;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    padding-left: 15px;
+}
+.top{
+    background-color:#a9cce3;
+    color:#1c2833;
+    text-align-last: center;
+}
+.banner{
+    display:flex;
+    background-color: #1b4f72;
+    align-items: center;
+    align-content: center;
+    padding:10px;
+    color:white;
+    gap:20px;
+}
+.dp{
+    margin-right:10px;
+    padding-left: 30px;
+}
+img{
+    height: 50px;
+    width: 50px;
+    clip-path: circle(50%);
+    margin-left: 20px;
+}
+.menu{
+    text-decoration: none;
+   color:white;
+   background-color:#7fb3d5;
+   padding:15px 15px;
+   border-radius: 5px;
+   transition: background-color 0.3 ease;
+   font-size:20px;
+   margin-left:500px;
+   gap:20px;
+}
+.menu a:hover {
+    background-color: #1b4f72;
+    border-radius: 5%;
+    padding-right: 5px;
+    padding-left:5px;
+}
+.todo-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-left: 400px;
+    margin-top:100px;
+}
+
+h1 {
+    text-align: center;
+    color: #154360 
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #154360;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #154360;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button.done-btn {
+    background-color: #154360;
+}
+
+button.remove-btn {
+    background-color:#9b59b6;
+}
+
+button.done-btn:hover {
+    background-color:#1b2631
+}
+
+button.remove-btn:hover {
+    background-color:#4a235a;
+}
+a {
+    text-decoration: none;
+    color:white;
+}

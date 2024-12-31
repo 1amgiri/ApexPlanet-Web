@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <div class="top">Apex Planet Internship Task-5</div>
+    <div class="banner">
+        <h2>SHOP</h2>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <form id="search-form" class="search">
+            <input type="text" id="search-input" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        
+        <div class="menu">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button> 
+            <div class="menu-links">
+                <a href="index.html">Home</a>
+                <a href="grocery.html">Grocery</a>
+                <a href="cart.html">Cart</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories">
+        <button data-category="all">All</button>
+        <button data-category="electronics">Electronics</button>
+        <button data-category="fashion">Fashion</button>
+        <button data-category="furniture">Furniture</button>
+    </div>
+
+    <div class="products-section">
+        <h2>Products</h2>
+        <div class="products-container" id="products-container"></div>
+    </div>
+
+    <script src="products.js"></script>
+    <script>
+        function toggleMenu() {
+            const menuLinks = document.querySelector(".menu-links");
+            menuLinks.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

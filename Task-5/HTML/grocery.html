@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery</title>
+    <link rel="stylesheet" href="grocery.css">
+</head>
+<body>
+    <div class="top">Apex Planet Internship Task-4</div>
+    <div class="banner">
+        <h2>Grocery</h2>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <form id="search-form" class="search">
+            <input type="text" id="search-input" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        
+        <div class="menu">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <div class="menu-links">
+            <a href="index.html">Home</a>
+            <a href="index.html">products</a>
+            <a href="cart.html">Cart</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="products-section">
+        <h2>Fresh Groceries</h2>
+        <div class="products-container">
+        </div>
+    </div>
+
+    <br>
+
+    <script src="grocery.js"></script>
+    <script>
+        function toggleMenu() {
+            const menuLinks = document.querySelector(".menu-links");
+            menuLinks.classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>
